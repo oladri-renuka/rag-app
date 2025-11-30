@@ -1,0 +1,2 @@
+Python is a high-level programming language created by Guido van Rossum in 1991.
+It is widely used for web development, data science, AI, and scripting.
