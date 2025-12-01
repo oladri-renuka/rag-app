@@ -77,7 +77,7 @@ uvicorn app.main:app --reload
 Run the Streamlit app for a quick demo:
 
 ```bash
-streamlit run app.py
+streamlit run test_rag.py
 ```
 
 * Enter a question in the input box.
@@ -109,7 +109,7 @@ python faiss_build.py
 
 1. Create a **new Space** on Hugging Face (choose Docker or Streamlit SDK).
 2. Push your repository to the Space.
-3. Ensure `app.py` is the entrypoint for Streamlit-based deployment.
+3. Ensure `test_rag.py` is the entrypoint for Streamlit-based deployment.
 4. Adjust `requirements.txt` and Dockerfile if needed.
 
 ---
